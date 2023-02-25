@@ -10,20 +10,25 @@
         android:background="#FFEBCD" />
 
     <TextView
+        android:id="@+id/tvmenu"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#DEB887"
         android:gravity="center"
         android:padding="25dp"
         android:text="Menu Coffe"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
         android:textSize="30dp" />
 
 
     <ImageView
-        android:layout_marginTop="90dp"
+        android:id="@+id/kopiesp"
         android:layout_width="150dp"
         android:layout_height="200dp"
-        android:src="@drawable/espresso" />
+        android:src="@drawable/espresso"
+        android:layout_below="@+id/tvmenu"/>
 
     <TextView
         android:layout_marginLeft="35dp"
@@ -43,14 +48,14 @@
         android:background="#DAA520"/>
 
     <ImageView
-        android:layout_marginLeft="115dp"
-        android:layout_marginTop="300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/kopiesp"
         android:layout_width="150dp"
         android:layout_height="250dp"
         android:src="@drawable/goodday" />
 
     <TextView
-        android:layout_marginLeft="140dp"
+        android:layout_marginLeft="155dp"
         android:layout_marginTop="500dp"
         android:textSize="25dp"
         android:text="Goodday"
@@ -62,13 +67,14 @@
         android:text="Pesan"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="145dp"
+        android:layout_marginLeft="160dp"
         android:layout_marginTop="550dp"
         android:background="#DAA520"/>
 
     <ImageView
         android:layout_marginLeft="220dp"
-        android:layout_marginTop="90dp"
+        android:layout_alignStart="@+id/kopiesp"
+        android:layout_below="@+id/tvmenu"
         android:layout_width="150dp"
         android:layout_height="240dp"
         android:src="@drawable/capuccino" />
