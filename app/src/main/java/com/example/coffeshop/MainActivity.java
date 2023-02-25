@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
                 String password = editTxtPw.getText().toString();
                 if (email.equalsIgnoreCase("admin") &&
                         password.equalsIgnoreCase("admin")){
-                    startActivity(new Intent(MainActivity.this, MainActivity.class));
+                    startActivity(new Intent(MainActivity.this, MainActivity2.class));
                 }else{
                     Toast.makeText(getApplicationContext(), "Gagal Login", Toast.LENGTH_SHORT).show();
                 }

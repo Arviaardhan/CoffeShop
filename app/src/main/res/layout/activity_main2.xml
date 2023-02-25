@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFEBCD" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#DEB887"
+        android:gravity="center"
+        android:padding="25dp"
+        android:text="Menu Coffe"
+        android:textSize="30dp" />
+
+
+    <ImageView
+        android:layout_marginTop="90dp"
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:src="@drawable/espresso" />
+
+    <TextView
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="255dp"
+        android:textSize="20dp"
+        android:text="Espresso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnpesanan"
+        android:text="Pesan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="300dp"
+        android:background="#DAA520"/>
+
+    <ImageView
+        android:layout_marginLeft="115dp"
+        android:layout_marginTop="300dp"
+        android:layout_width="150dp"
+        android:layout_height="250dp"
+        android:src="@drawable/goodday" />
+
+    <TextView
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="500dp"
+        android:textSize="25dp"
+        android:text="Goodday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnpesanan1"
+        android:text="Pesan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="145dp"
+        android:layout_marginTop="550dp"
+        android:background="#DAA520"/>
+
+    <ImageView
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="90dp"
+        android:layout_width="150dp"
+        android:layout_height="240dp"
+        android:src="@drawable/capuccino" />
+
+    <TextView
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="255dp"
+        android:textSize="20dp"
+        android:text="Capuccino"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnpesanan2"
+        android:text="Pesan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="300dp"
+        android:background="#DAA520"/>
+
+
+
+</RelativeLayout>
